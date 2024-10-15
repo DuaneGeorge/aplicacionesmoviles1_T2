@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:text="Información de Comentarios"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spnUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/tbnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:justificationMode="inter_word"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
